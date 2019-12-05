@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script src="jQuery.js"></script>
+    <meta charset="utf-8" />
+    <title>CALC</title>
+    <link href="calc.css" rel="stylesheet" />
+
+</head>
+<body>
+    <div style="background-color: #2B2930; width: 32%; height:30em; margin-left:35%; margin-bottom:2%">
+        <h2>Calculator</h2>
+
+        <div id="calculator" class="calculator">
+            <input type="text" id="txtval" placeholder="checked value" class="txt txt1" style="width: 52%">
+            <input type="button" value="SHOW VALUE" id="btn" /><br />
+            <input type="text" id="viewer" placeholder="enter equation" class="txt"><br />
+
+            <button id="clear" class="clear">C</button>
+            <button class="num" data-num="7">7</button>
+            <button class="num" data-num="8">8</button>
+            <button class="num" data-num="9">9</button>
+            <button data-ops="plus" class="ops">+</button>
+            <button class="num" data-num="4">4</button>
+            <button class="num" data-num="5">5</button>
+            <button class="num" data-num="6">6</button>
+            <button data-ops="minus" class="ops">-</button>
+            <button class="num" data-num="1">1</button>
+            <button class="num" data-num="2">2</button>
+            <button class="num" data-num="3">3</button>
+            <button data-ops="times" class="ops">*</button>
+            <button class="num" data-num="0">0</button>
+            <button class="num" data-num=".">.</button>
+            <button id="equals" class="equals" data-result="">=</button>
+            <button data-ops="divided by" class="ops">/</button><br /><br /><br />
+        </div>
+    </div>
+    <input type="button" value="Reset" id="btn2" /><br />
+
+</body>
+</html>
+<script>
+    $(document).ready(function () {
+        var arr =[20, 30, 50];
+        $("#btn").click(function () {
+            $("#txtval").html(10);
+        });
+    });
+</script>

@@ -1,0 +1,67 @@
+﻿html {
+    background-color: #171417;
+    background-attachment: fixed;
+    color: black;
+}
+
+body {
+    color: black;
+    font: 300 18px/1.6 "Source Sans Pro",sans-serif;
+    margin: 0;
+    padding: 5em 0 2em;
+    text-align: center;
+}
+
+h2 {
+    font-weight: 300;
+    color:aliceblue!important;
+    margin: 0;
+    padding-top:3%;
+    padding-bottom:2%;
+}
+
+.txt {
+    background-color: lightblue;
+    border: 1px solid #3E3868;
+    margin-bottom: 4%;
+    width: 93%;
+    height: 2rem;
+    color: black;
+}
+
+#btn {
+    background-color: #a89ba5;
+    border: 1px solid #a89ba5;
+    color: black;
+    width: 38%;
+    height: 3em;
+    font-weight: bold;
+    font-size: 43%;
+}
+
+#btn2 {
+    background-color: #a89ba5;
+    border: 4px solid #a89ba5;
+    color: black;
+    width: 10%;
+    font-size: 153%;
+}
+
+.calculator {
+    font-size: 28px;
+    margin: 0 auto;
+    width: 11em;
+}
+
+button {
+    border: 0;
+    font-weight: 200;
+    background: rgba(42,50,113, .28);
+    color: #f0f8ffdb;
+    cursor: pointer;
+    float: left;
+    font: inherit;
+    margin: 0.25em;
+    width: 2em;
+    height: 2em;
+}
